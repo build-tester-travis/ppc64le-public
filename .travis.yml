@@ -1,18 +1,15 @@
 os: linux
-arch: ppc64le
-dist: focal
-#dist: bionic
 
 jobs:
   include:
     - name: "Job 1"
+      arch: ppc64le
+      dist: focal
       script:
       - echo "Running Job 1"
 
     - name: "Job 2"
+      arch: ppc64le
+      dist: bionic
       script:
       - echo "Running Job 2"
-
-    - name: "Job 3"
-      script:
-      - echo "Running Job 3"
