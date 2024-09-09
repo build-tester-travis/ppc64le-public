@@ -1,6 +1,6 @@
 os: linux
 arch: ppc64le
-dist: bionic
+dist: focal
 
 jobs:
   include:
