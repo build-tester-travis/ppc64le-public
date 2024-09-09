@@ -10,6 +10,6 @@ jobs:
 
     - name: "Job 2"
       arch: ppc64le
-      dist: bionic
+      dist: focal
       script:
         - echo "Running Job 2"
