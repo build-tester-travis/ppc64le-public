@@ -1,0 +1,6 @@
+os: linux
+arch: ppc64le
+dist: focal
+#dist: bionic
+script:
+  - echo "test"
