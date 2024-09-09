@@ -1,14 +1,14 @@
 #test private repo
 os: linux
 arch: ppc64le
-dist: focal
-
 jobs:
   include:
-    - name: "Job 1"
+    - name: "Job 1 - ppc64le"
+      dist: focal
       script:
-        - echo "Running Job 1"
+        - echo "Running ppc64le Job 1"
 
-    - name: "Job 2"
+    - name: "Job 2 - ppc64le"
+      dist: bionic
       script:
-        - echo "Running Job 2"
+        - echo "Running ppc64le Job 2"
