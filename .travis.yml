@@ -4,12 +4,12 @@ jobs:
   include:
     - name: "Job 1"
       arch: ppc64le
-      dist: focal
+      dist: bionic
       script:
         - echo "Running Job 1"
 
     - name: "Job 2"
       arch: ppc64le
-      dist: focal
+      dist: bionic
       script:
         - echo "Running Job 2"
