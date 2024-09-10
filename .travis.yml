@@ -1,14 +1,9 @@
 #private repo test
 os: linux
-arch: ppc64le
-dist: focal
+dist: bionic
 jobs:
   include:
-    - name: "Job 1 - ppc64le"
-      dist: focal
+    - arch: ppc64le
+     language: minimal
       script:
-        - echo "Running ppc64le Job 1"
-    - name: "Job 2 - ppc64le"
-      dist: bionic
-      script:
-        - echo "Running ppc64le Job 2"
+        - echo "test"
