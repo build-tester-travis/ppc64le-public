@@ -4,6 +4,6 @@ dist: bionic
 jobs:
   include:
     - arch: ppc64le
-     language: minimal
+      language: minimal
       script:
         - echo "test"
