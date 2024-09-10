@@ -1,4 +1,4 @@
-#test private repo
+#private repo
 os: linux
 arch: ppc64le
 dist: focal
@@ -8,7 +8,6 @@ jobs:
       dist: focal
       script:
         - echo "Running ppc64le Job 1"
-
     - name: "Job 2 - ppc64le"
       dist: bionic
       script:
