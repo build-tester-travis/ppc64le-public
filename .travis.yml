@@ -1,4 +1,4 @@
-#private repo
+#private repo test
 os: linux
 arch: ppc64le
 dist: focal
