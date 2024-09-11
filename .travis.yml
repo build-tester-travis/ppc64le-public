@@ -1,6 +1,6 @@
+#public repo
 os: linux
 dist: bionic
-language: minimal
 jobs:
   include:
     - arch: ppc64le
