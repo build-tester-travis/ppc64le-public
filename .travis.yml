@@ -1,4 +1,4 @@
-#public
+#private
 os: linux
 dist: bionic
 jobs:
