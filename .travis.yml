@@ -1,4 +1,4 @@
-#public repo
+#public
 os: linux
 dist: bionic
 jobs:
