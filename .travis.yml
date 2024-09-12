@@ -1,9 +1,15 @@
 #public repo
+#multiple jobs
 os: linux
-dist: bionic
+arch: ppc64le
+dist: focal
 jobs:
   include:
-    - arch: ppc64le
-      language: minimal
+    - name: "Job 1 - ppc64le"
+      dist: focal
       script:
-        - echo "test"
+        - echo "Running ppc64le Job 1"
+    - name: "Job 2 - ppc64le"
+      dist: bionic
+      script:
+        - echo "Running ppc64le Job 2"
