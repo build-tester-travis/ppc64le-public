@@ -1,6 +1,8 @@
 os: linux
-arch: ppc64le
-language: minimal
-dist: focal
-script:
-  - echo "test"
+dist: bionic
+jobs:
+  include:
+    - arch: ppc64le
+      language: minimal
+      script:
+        - echo "test"
