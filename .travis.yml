@@ -1,6 +1,6 @@
 os: linux
-dist: bionic
 arch: ppc64le
+dist: bionic
 language: minimal
 script:
  - echo "test"
