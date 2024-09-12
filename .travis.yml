@@ -1,6 +1,7 @@
 #public dist:focal
 os: linux
 arch: ppc64le
+language: minimal
 dist: focal
 script:
   - echo "test"
