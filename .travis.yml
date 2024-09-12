@@ -1,4 +1,4 @@
-#private repo
+#public repo
 os: linux
 dist: bionic
 jobs:
